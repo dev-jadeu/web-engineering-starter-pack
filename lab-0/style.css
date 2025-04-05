@@ -1,94 +1,46 @@
 body {
-  font-family:'Times New Roman', Times, serif;
-  margin-top: 80px;
-  margin-bottom: 80px;
-  margin-right: 150px;
-  margin-left: 150px;
-  padding: 0;
-  background: linear-gradient(to left, #374f59, #607785);
-}
-
-.letter-cont {
-  background-color: white;
-  color: #374f59;
-  font-size: 18px;
-  text-align: justify;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-bottom: 50px;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(54, 51, 51, 1);
-  transform: translateY(-10px);
-}
-
-.logo {
-  width: 250px;
-  height: 250px;
   margin: 0 auto;
-  display: block;
+  max-width: 800px;
+  line-height: 1.5;
 }
 
-.sender, .date, .receiver {
-  margin-bottom: 35px;
+.sender-column {
+  text-align: right;
 }
 
-.subject {
-  margin-top: 50px;
-  font-size: 25px;
-  line-height: 10px;
-  margin-bottom: 40px;
+.sender-column time {
+  text-align: right;
+  margin-top: 20px;
+  font-style: normal;
+  display: inline-block;
 }
 
-.questions {
-  list-style-type: upper-roman;
+.recipient-column {
+  margin-top: 20px;
 }
 
-.first-sect {
-  margin-top: 40px;
+h1 {
+  font-size: 1.5em;
 }
 
-.first-sect, .second-sect, .third-sect {
-  margin-bottom: 50px;
+h2 {
+  font-size: 1.3em;
 }
 
-.closing, .motto {
-  margin-left: -30px;
-  padding-left: 0;
+p, ul, ol, dl, address {
+  font-size: 1.1em;
 }
 
-.closing {
-  margin-top: 50px;
-  line-height: 30px;
+p, li, dd, dt, address {
+  line-height: 1.5;
 }
 
-.motto {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 15px;
-  color: white;
-  padding: 8px;
-  margin-top: 50px;
-  background-color: #374f59;
-  text-align: center;
+abbr {
+  text-decoration: underline dotted;
+  cursor: help;
 }
 
-p, table {
+blockquote {
+  margin: 0;
   margin-bottom: 20px;
-  line-height: 25px;
-}
-
-li {
-  margin-bottom: 13px;
-}
-
-table {
-  border-collapse: collapse;
-}
-
-td, th {
-  padding: 15px;
-  border: 2px solid #374f59;
-}
-
-h3 {
-  font-size: 18px;
 }
